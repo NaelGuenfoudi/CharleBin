@@ -50,7 +50,7 @@ class Configuration
             'info'                     => 'More information on the <a href=\'https://privatebin.info/\'>project page</a>.',
             'notice'                   => '',
             'languageselection'        => false,
-            'languagedefault'          => '',
+            'languagedefault'          => 'fr',
             'urlshortener'             => '',
             'qrcode'                   => true,
             'icon'                     => 'identicon',
@@ -71,6 +71,7 @@ class Configuration
             '1month' => 2592000,
             '1year'  => 31536000,
             'never'  => 0,
+            '30min'=>1800,
         ),
         'formatter_options' => array(
             'plaintext'          => 'Plain Text',
